@@ -1,0 +1,39 @@
+.hero {
+    height: calc(100vh - 135px);
+    display: flex;
+    align-items: center;
+    background-color: #fecc18;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__description {
+        flex-basis: 40%;
+    }
+
+    &__preview {
+        flex-basis: 50%;
+    }
+
+    &__image {
+        max-width: 100%;
+    }
+
+    &__title {
+        margin-bottom: 20px;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 66px;
+    }
+
+    &__text {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    &__button {
+        border: 2px solid #3B3B3B;
+    }
+}

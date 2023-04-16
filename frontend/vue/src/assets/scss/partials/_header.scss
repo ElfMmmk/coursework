@@ -1,0 +1,40 @@
+.header {
+    &__top {
+        padding: 10px 0;
+        background-color: white;
+
+        .row {
+            align-items: center;
+        }
+
+        position: fixed;
+        z-index: 20;
+        width: 100%;
+        top: 0;
+        box-shadow: 0 11px 22px 0 rgb(0 0 0 / 20%);
+    }
+    
+    &__left {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+
+    &__right {
+        text-align: end;
+    }
+
+    &__search {
+        position: relative;
+        width: 400px;
+    }
+
+    &__bottom {
+        background-color: #3D3E3E;
+        margin-top: 75px;
+    }
+
+    &__nav {
+        padding: 10px 0;
+    }
+}

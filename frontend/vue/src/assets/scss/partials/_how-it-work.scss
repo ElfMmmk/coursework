@@ -1,0 +1,44 @@
+.how-it-work {
+    &__list {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 30px;
+    }
+
+    &__item {
+        height: 110px;
+        width: 110px;
+        border-radius: 100%;
+        background-color: #FEFBF0;
+        border: 1px solid rgba(59, 59, 59, 0.3);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgba(59, 59, 59, .8);
+        position: relative;
+
+        &:not(:last-child)::after {
+            content: "";
+            position: absolute;
+            background-color: #ddd;
+            height: 1px;
+            width: 170px;
+            top: 50%;
+            left: 122%;
+        }
+    }
+
+    &__description {
+        text-align: center;
+    }
+
+    &__title {
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    &__content {
+        color: #777777;
+    }
+}

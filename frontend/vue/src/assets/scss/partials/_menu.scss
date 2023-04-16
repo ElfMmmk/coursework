@@ -1,0 +1,17 @@
+.menu {
+    display: flex;
+    color: white;
+    
+    &__link {
+        font-size: 14px;
+        font-weight: 600;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        display: block;
+        transition: color .2s ease;
+
+        &:hover {
+            color: #fecc18;
+        }
+    }
+}

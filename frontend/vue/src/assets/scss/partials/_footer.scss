@@ -1,0 +1,56 @@
+.footer {
+    background-color: #3D3E3E;
+    padding: 260px 0px 80px 0px;
+    color: #fff;
+    position: relative;
+
+    &__shape {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 148px;
+        width: 100%;
+        overflow: hidden;
+        transform: rotate(180deg);
+    }
+
+    &__logo {
+        margin-bottom: 25px;
+    }
+
+    &__subtitle {
+        font-size: 20px;
+        margin-bottom: 30px;
+        font-weight: 600;
+    }
+
+    &__menu {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    &__link {
+        transition: color .2s ease;
+
+        &:hover {
+            color: #fecc18;
+        }
+    }
+    
+    &__address {
+        p {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.footer-line {
+    padding: 15px 0;
+    background-color: #383939;
+    color: #fff;
+
+    &__copyright {
+        padding: 5px;
+    }
+}

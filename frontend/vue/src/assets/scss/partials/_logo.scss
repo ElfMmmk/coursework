@@ -1,0 +1,17 @@
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+
+    &__first {
+        color: #fecc18;
+    }
+
+    &__second {
+        color: #3D3E3E;
+
+        &--light {
+            color: #fff;
+        }
+    }
+}

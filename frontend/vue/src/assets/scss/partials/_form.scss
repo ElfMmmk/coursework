@@ -1,0 +1,49 @@
+.form {
+    &__input {
+        padding: 10px;
+        border: 1px solid rgba(55, 55, 55, 0.1);
+        border-radius: 50px;
+        color: #777777;
+        background-color: #F5F5F4;
+        font-size: 14px;
+        outline: none;
+        padding-left: 20px;
+        width: 100%;
+        
+        &--login {
+            border-radius: 0;
+            padding: 15px 10px;
+        }
+
+        &:focus {
+            border-color: #fecc18;
+            background-color: #fff;
+        }
+    }
+
+    &__field {
+        margin-bottom: 10px;
+
+        &--login {
+            margin-bottom: 30px;
+        }
+    }
+
+    &__button {
+        width: 100%;
+        border: 2px solid #fff;
+
+        &--login {
+            border-radius: 0;
+        }
+    }
+
+    &__helper {
+        color: #777777;
+        margin-top: 20px;
+
+        a {
+            color: #3B3B3B;
+        }
+    }
+}

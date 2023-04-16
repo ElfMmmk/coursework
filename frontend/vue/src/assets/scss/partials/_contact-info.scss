@@ -1,0 +1,21 @@
+.contact-info {
+    padding: 25px;
+    border: 1px solid rgba(55, 55, 55, 0.2);
+    min-height: 225px;
+    border-radius: 0.25rem;
+    text-align: center;
+
+    &__image {
+        margin-bottom: 20px;
+    }
+
+    &__title {
+        line-height: 22px;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    &__description {
+        color: #777777;
+    }
+}
